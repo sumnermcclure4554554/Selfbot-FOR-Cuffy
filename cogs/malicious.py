@@ -529,9 +529,9 @@ Quite possibly the shittest selfbot made by Daddie#1337```"""
                 await ctx.send(
                     "There seems to be an error looking up that token\nDouble check your token and try again"
                 )
-        except:
+        except Exception as e:
             uhhh = "Honestly dont know what you fucked up I don't care lmao"
-            await ctx.send(f":x:\n**Error:** {uhhh}")
+            await ctx.send(f":x:\n**Error:** {uhhh}\n\n{e}")
 
 
 ### Discord blockbypass coming soon. Creds to Yaekith for that shit
