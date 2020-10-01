@@ -34,7 +34,7 @@ SNIPER = config.get("SNIPER")
 GW = config.get("GIVEAWAY")
 SLOT = config.get("SLOT")
 
-__version__ = "6.1.1"
+__version__ = "6.1.3"
 __author__ = "Daddie0 || https://daddie.xyz"
 
 # Define shit to optimize speed for nitro commands etc.. on message event
