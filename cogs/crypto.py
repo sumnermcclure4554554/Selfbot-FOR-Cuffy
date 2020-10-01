@@ -4,12 +4,16 @@ from discord.ext import commands
 import requests
 from colorama import Fore, init
 
+# you're defining shit here
+
 
 class crypto(commands.Cog):
     """Cryptocurrency stuff"""
 
     def __init__(self, bot):
         self.bot = bot
+
+    #define shit here
 
     @commands.command()
     async def daily(self, ctx):

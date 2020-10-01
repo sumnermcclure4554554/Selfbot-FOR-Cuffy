@@ -152,11 +152,11 @@ class mod(commands.Cog):
 
     @commands.group(aliases=["c"], invoke_without_command=True)
     async def clean(
-        self, ctx, amount: typing.Optional[int] = 10, member: discord.Member = None
+        self, ctx, amount: typing.Optional[int] = 0, member: discord.Member = None
     ):
         """delete a number of your own or another users messages
         Parameters
-        • amount - the amount of messages to delete
+        • amount - the amount of messages to delete, delets ∞ messages by default
         • member - the member whose messages are to be deleted, deletes your own messages by default
         """
         deleted = 0
