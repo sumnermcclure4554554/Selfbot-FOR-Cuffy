@@ -35,7 +35,7 @@ GW = config.get("GIVEAWAY")
 SLOT = config.get("SLOT")
 
 __version__ = "6.1.3"
-__author__ = "Daddie0 || https://daddie.xyz"
+__author__ = "Daddie0 || https://gobyebye.github.io"
 
 # Define shit to optimize speed for nitro commands etc.. on message event
 # aka just define shit once instead of for every message

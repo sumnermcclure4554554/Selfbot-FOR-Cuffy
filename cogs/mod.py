@@ -169,8 +169,8 @@ class mod(commands.Cog):
                     deleted += 1
                     if deleted == amount:
                         break
-                except:
-                    print(f"Error while deleting messege. Probably a system message")
+                except Exception as e:
+                    print(f"Error while deleting messege. Probably a system message\nError: {e}")
 
     @clean.command(aliases=["i"])
     async def images(self, ctx, images_to_delete: int = 10):
