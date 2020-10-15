@@ -40,7 +40,6 @@ class nsfw(commands.Cog):
         r = random.randint(50, 255)
         g = random.randint(50, 255)
         b = random.randint(50, 255)
-        msg = {list}
         embed = discord.Embed(
             title=":flushed: options:", description=f"{list}", colour=discord.Colour.from_rgb(r, g, b),
         )
