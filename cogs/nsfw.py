@@ -20,7 +20,7 @@ class nsfw(commands.Cog):
         b = random.randint(0, 255)
         msg = message
         embed = discord.Embed(
-            title="<:lu_02yay:749435269337317447>", description="", colour=discord.Colour.from_rgb(r, g, b),
+            title=":flushed:", description="", colour=discord.Colour.from_rgb(r, g, b),
         )
         url = nekos.img(msg)
         embed.set_image(url=url)
