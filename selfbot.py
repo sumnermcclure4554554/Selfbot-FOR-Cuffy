@@ -245,13 +245,7 @@ We're ready to snipe shit{Fore.RESET}
         if ctx.command is None:
             return
         await self.invoke(ctx)
-
-    @classmethod
-    def black(cls):
-        return cls(0x000000)
-
-    discord.Color.black = black
-
+ 
     async def on_message_delete(self, message):
         if len(message.content) != 1:
             self.snipes[message.channel.id] = message.content
