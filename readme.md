@@ -1,4 +1,5 @@
-[![GitHub stars](https://img.shields.io/github/stars/GoByeBye/DiscoRape?style=for-the-badge)](https://github.com/GoByeBye/DiscoRape/stargazers) ![GitHub license](https://img.shields.io/github/license/GoByeBye/DiscoRape?style=for-the-badge) ![](https://img.shields.io/badge/PYTHON-3.X-blueviolet?style=for-the-badge)
+[![GitHub stars](https://img.shields.io/github/stars/GoByeBye/DiscoRape?style=for-the-badge)](https://github.com/GoByeBye/DiscoRape/stargazers) ![GitHub license](https://img.shields.io/github/license/GoByeBye/DiscoRape?style=for-the-badge) ![](https://img.shields.io/badge/PYTHON-3.5--3.8-green?style=for-the-badge)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGoByeBye%2FDiscoRape&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repo+Views&edge_flat=true)](https://hits.seeyoufarm.com)
 # DiscoRape
 
 DiscoRape is a selfbot for Discord written in python3.8
