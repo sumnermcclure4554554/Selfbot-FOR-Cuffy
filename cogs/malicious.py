@@ -191,9 +191,6 @@ class malicious(commands.Cog):
                     "ko": "Korean, Korea",
                 }
 
-                ### Vars for later when figuring out card
-                cc_digits = {"american express": "3", "visa": "4", "mastercard": "5"}
-
                 res_json = res.json()
 
                 ### Convert json response to args we can fucking use
@@ -289,6 +286,8 @@ Quite possibly the shittest selfbot made by Daddie#6969```"""
             uhhh = "Honestly dont know what you fucked up I don't care lmao"
             await ctx.send(f":x:\n**Error:** {uhhh}")
 
+    
+    
     @commands.command()
     async def tokeninfobill(self, ctx, message):
         """Grabs info about selected user including billing info ¯\_(ツ)_/¯
