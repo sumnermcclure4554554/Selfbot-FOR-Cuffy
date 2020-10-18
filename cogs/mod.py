@@ -88,7 +88,7 @@ class mod(commands.Cog):
     async def ban(
         self,
         ctx,
-        member: typing.Union[discord.Member, int],
+        member: discord.Member,
         *,
         reason="No reason given",
     ):
@@ -97,9 +97,6 @@ class mod(commands.Cog):
         • member - the member to ban
         • reason - reason why the member was banned
         """
-        if member.isdigit() and len(member) == 18:
-            user = await self.bot.fetch_user(member)
-        self.saved_roles[user.id] = user.roles[1:]
         if type(member) == discord.Member:
             await ctx.guild.ban(member, reason=reason, delete_message_days=0)
         else:
