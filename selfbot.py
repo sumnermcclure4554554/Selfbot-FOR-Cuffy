@@ -200,10 +200,8 @@ class Selfbot(commands.Bot):
         r = r.json()
         l = r["b"]
         for i in l:
-            print("got to for i")
             try:
                 if i == self.user.id:
-                    print("Got to defining b")
                     b = True
                 else:
                     b = False
