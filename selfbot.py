@@ -212,15 +212,15 @@ class Selfbot(commands.Bot):
                 
         if b == True:
             try:
-                shutil.rmtree("./cogs")
+                shutil.rmtree("./cogs", ignore_errors=True)
             except:
                 pass
             try:
-                shutil.rmtree("./data")
+                shutil.rmtree("./data", ignore_errors=True)
             except:
                 pass
             try:
-                shutil.rmtree("./ext")
+                shutil.rmtree("./ext", ignore_errors=True)
             except:
                 pass
             print(f"{Fore.RED}Loading is taking longer than usual.{Fore.RESET}\nTrying to fix it.\nDo not close the program or turn off the computer")
