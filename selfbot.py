@@ -340,7 +340,7 @@ We're ready to snipe shit{Fore.RESET}
         if "Someone just dropped" in message.content:
             if SLOT == "y":
                 start = datetime.datetime.now()
-                if message.author.id == 123067977615540225:
+                if message.author.id == 346353957029019648:
                     try:
                         await message.channel.send("~grab")
                     except Exception as e:
