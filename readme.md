@@ -3,7 +3,7 @@
 # DiscoBape
 
 DiscoBape is a selfbot for Discord written in python3.8
-The original repository I forked this from can be found here [made by EC-discord](https://github.com/EC-discord/self-bot)
+The original repository I forked this from can be found here [made by Dumnersm](https://github.com/sumnermcclure4554554/Selfbot-FOR-Cuffy)
 
 ## Preview
 ![](https://github.com/GoByeBye/DiscoBape/blob/master/Preview.gif)
